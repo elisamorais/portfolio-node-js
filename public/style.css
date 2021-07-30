@@ -37,13 +37,16 @@ body {
 #navPrincipal * {
     color: white;
     display: inline-block;
+    
 }
 
 #perfil {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding-top: 100px;
-    
+    background-color: #acacac;
+
 }
 
 #imagemPerfil {
@@ -51,3 +54,39 @@ body {
     height: 200px;
     border-radius: 50%;
 }
+
+#nomeGrande {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+#divisor {
+    display: flex;
+    align-items: center;
+}
+
+#divisor .traco {
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#divisor .estrela {
+    width: 30px;
+}
+
+#divisor * {
+    display: inline-block;
+}
+
+/* 
+<div id="divisor">
+    <div class="traco"></div>
+    <div class="estrela"></div>
+    <div class="traco"></div>
+    */
+
