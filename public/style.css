@@ -37,56 +37,100 @@ body {
 #navPrincipal * {
     color: white;
     display: inline-block;
-    
 }
 
-#perfil {
+#perfil, #sobre {
+    background-color: #acacac;
+}
+
+.sessao {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
-    background-color: #acacac;
-
+    padding-bottom: 6rem;
 }
 
 #imagemPerfil {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin-bottom: 50px;
 }
 
-#nomeGrande {
+.nomeGrande {
     font-size: 4rem;
     font-weight: 700;
     text-transform: uppercase;
     color: white;
 }
 
-#divisor {
-    display: flex;
+#textinho {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
     align-items: center;
+    display: inline-block;
 }
 
-#divisor .traco {
-    width: 200px;
+.divisor {
+    display: flex;
+    margin: 1.5rem 0 1.5rem;
+}
+
+.divisor .traco {
+    width: 150px;
     height: 5px;
-    background-color: white;
     margin: 10px;
     border-radius: 5px;
 }
 
-#divisor .estrela {
+.divisor .traco {
+    background-color: #4d4d4d;
+}
+
+.divisor .estrela {
     width: 30px;
 }
 
-#divisor * {
+.divisor * {
     display: inline-block;
 }
 
-/* 
-<div id="divisor">
-    <div class="traco"></div>
-    <div class="estrela"></div>
-    <div class="traco"></div>
-    */
+.sessao h1 {
+    color: #4D4D4D;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#experiencia .imagens {
+    display: flex;
+    justify-content: center;
+}
+
+#experiencia .imagens img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#sobre .texto  {
+    display: flex;
+    padding: 0 190px;
+}
+
+#sobre .texto .coluna {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+#contato form input {
+    
+}
 
